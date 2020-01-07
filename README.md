@@ -10,7 +10,7 @@ cd build
 cmake -DCMAKE_BUILD_TYPE=Release ..
 make -j
 ```
-Then, in the the `build` directory, you can
+Then, in the the `build` directory, you can run the Python REPL:
 ```python
 >>> import bytebpe
 >>> bpe = bytebpe.ByteBPE()
