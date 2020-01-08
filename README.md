@@ -14,7 +14,7 @@ Then, in the the `build` directory, you can run the Python REPL:
 ```python
 >>> import bytebpe
 >>> bpe = bytebpe.ByteBPE()
->>> bpe.[tab][tab]
+>>> bpe.[tab]
 bpe.decode(          bpe.encode_token(    bpe.load_from_file(  
 bpe.encode_line(     bpe.learn(           bpe.save_to_file(
 ```
